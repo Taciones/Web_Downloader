@@ -30,7 +30,9 @@ hiddenElement.click();
  - The snippet above will write all the URLs in one new file. Line per Line with all the URLs.
 -----------------------------------------------------------------------
 
-Now you can follow the steps inside the Jupiter notebook to make use of application.
+Now you should on the terminal you should go to the folder where you downloaded this code
+type:
+python3 web_downloader.py -u urls.txt -o images/santa
 
 
 
