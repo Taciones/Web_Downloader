@@ -30,6 +30,12 @@ hiddenElement.click();
  - The snippet above will write all the URLs in one new file. Line per Line with all the URLs.
 -----------------------------------------------------------------------
 
+Install some dependecies in order to work:
+pip install requests
+pip install opencv-python
+pip install numpy
+pip install imutils
+
 Now you should on the terminal you should go to the folder where you downloaded this code
 type:
 python3 web_downloader.py -u urls.txt -o images/santa
